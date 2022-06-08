@@ -9,7 +9,7 @@ export function Image({ urlImage, alt, height, width, isWithdrawn, ...props }: I
       alt={alt} 
       height={height} 
       width={width}
-      isWithdrawn={isWithdrawn}
+      isWithdrawn={isWithdrawn || false}
       {...props}
     />
   )
