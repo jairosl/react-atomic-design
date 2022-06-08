@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     --purple-250: #BFBFCC;
     --purple-500: #787880;
     --purple-600: #5A5A66;
+    --purple-650: #4F4F5B;
     --purple-700: #41414C;
 
     --red-50: #FAECEB;
@@ -21,10 +22,9 @@ export const GlobalStyle = createGlobalStyle`
     --white-150: #E1E3E5;
 
     --gray-100: #E1E3E6;
-
-    --font-IBM: 'IBM Plex Sans, Helvetica, sans-serif';
-    --font-Inter: 'Inter, Helvetica, sans-serif'
-
+    
+    --font-IBM: 'IBM Plex Sans';
+    --font-Inter: 'Inter'
   }
 
   * {
