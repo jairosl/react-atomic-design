@@ -3,7 +3,9 @@ export interface ButtonUIProps extends React.ButtonHTMLAttributes<HTMLButtonElem
     background: string;
     text: string;
   }
+  padding?: string;
   borderRadius?: string;
+  width?: string;
 }
 
 export interface ButtonProps extends ButtonUIProps{
