@@ -1,8 +1,10 @@
+import { Header } from "./ui/Organisms/Header"
+
 
 function App() {
   return (
     <div className="App">
-     <p>router</p>
+     <Header />
     </div>
   )
 }
