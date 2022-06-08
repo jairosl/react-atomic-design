@@ -22,6 +22,9 @@ export const GlobalStyle = createGlobalStyle`
 
     --gray-100: #E1E3E6;
 
+    --font-IBM: 'IBM Plex Sans, Helvetica, sans-serif';
+    --font-Inter: 'Inter, Helvetica, sans-serif'
+
   }
 
   * {
