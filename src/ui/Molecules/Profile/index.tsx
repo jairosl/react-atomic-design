@@ -1,6 +1,8 @@
-import { Image } from "../../Atoms/Image";
-import { CustomLink } from "../../Atoms/Link";
-import { Title } from "../../Atoms/Title";
+
+import { Image } from "@/ui/Atoms/Image";
+import { CustomLink } from "@/ui/Atoms/Link";
+import { Title } from "@/ui/Atoms/Title";
+
 import { ContainerUI } from "./styles";
 
 export function Profile() {

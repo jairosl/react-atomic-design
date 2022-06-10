@@ -1,11 +1,12 @@
 import { FiAlertOctagon } from 'react-icons/fi'
 import { AiOutlinePlus } from 'react-icons/ai'
-import { Button } from "../../Atoms/Button";
-import { Image } from "../../Atoms/Image";
-import { Text } from "../../Atoms/Text";
-import { Profile } from "../../Molecules/Profile";
-import { Summary } from "../../Molecules/Summary";
+
 import { HeaderUI, ContainerUI, Icon } from "./styles";
+import { Image } from '@/ui/Atoms/Image';
+import { Text } from '@/ui/Atoms/Text';
+import { Profile } from '@/ui/Molecules/Profile';
+import { Summary } from '@/ui/Molecules/Summary';
+import { Button } from '@/ui/Atoms/Button';
 
 export function Header() {
   return (
@@ -40,14 +41,14 @@ export function Header() {
         </div>
 
         <div className="summary-session">
-          <Summary 
+          <Summary
             data={{
               closed: 4,
               inProgressJobs: 7
             }}
           />
 
-          <Button 
+          <Button
             padding="0.75rem 2rem 0.75rem 0.75rem"
             customColor={
               {

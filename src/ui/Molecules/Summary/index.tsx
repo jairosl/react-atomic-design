@@ -1,4 +1,4 @@
-import { Text } from "../../Atoms/Text";
+import { Text } from "@/ui/Atoms/Text";
 import { ContainerSummary } from "./styles";
 import { SummaryProps } from "./types";
 
