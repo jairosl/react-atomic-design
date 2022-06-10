@@ -20,6 +20,9 @@
       "@/ui/*": [
         "./ui/*"
       ],
+      "@/services/*": [
+        "./services/*"
+      ],
     },
   },
   "include": ["src"],
