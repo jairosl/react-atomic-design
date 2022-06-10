@@ -1,12 +1,12 @@
 import { FiAlertOctagon } from 'react-icons/fi'
 import { AiOutlinePlus } from 'react-icons/ai'
 
-import { HeaderUI, ContainerUI, Icon } from "./styles";
 import { Image } from '@/ui/Atoms/Image';
 import { Text } from '@/ui/Atoms/Text';
 import { Profile } from '@/ui/Molecules/Profile';
 import { Summary } from '@/ui/Molecules/Summary';
 import { Button } from '@/ui/Atoms/Button';
+import { HeaderUI, ContainerUI, Icon } from "./styles";
 
 export function Header() {
   return (
