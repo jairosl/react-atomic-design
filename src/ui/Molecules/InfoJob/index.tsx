@@ -45,7 +45,7 @@ export function InfoJob({
           color="var(--purple-250)"
           fontWeight={600}
         >
-          Valor
+          VALOR
         </Text>
 
         <Text

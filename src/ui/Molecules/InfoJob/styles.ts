@@ -15,6 +15,10 @@ export const WrapperText = styled.div`
 
 export const Status = styled.div`
   margin-left: 5rem;
+  width: 158px;
+  span {
+    max-width: 158px;
+  }
 `
 
 
